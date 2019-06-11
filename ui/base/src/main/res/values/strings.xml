@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="bmi1_text_calc_your_bmi">Calculate Your Body Mass Index</string>
+    <string name="bmi1_text_add_bmi_details">Add BMI DETAILS</string>
+    <string name="bmi2_text_bmi_details">BMI DETAILS</string>
+    <string name="bmi1_text_enter_personal_detail">Enter Personal Detail</string>
+    <string name="bmi1_text_hint_name">Name</string>
+    <string name="bmi1_text_weight">Weight</string>
+    <string name="bmi1_text_height">Height</string>
+    <string name="bmi1_text_gender">Gender</string>
+    <string name="bmi1_text_btn">Calculate</string>
+
+    <string name="bmi2_text_bmi">BODY MASS INDEX</string>
+    <string name="bmi2_text_category">Normal BMI range: 18.5kg/m2 - 25kg/m2</string>
+    <string name="splash_text_bmi">YOUR BODY MASS INDEX</string>
+</resources>

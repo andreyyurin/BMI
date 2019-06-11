@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN THEME -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/main_color_app</item>
+        <item name="colorPrimaryDark">@color/main_color_app</item>
+        <item name="colorAccent">@color/main_color_app</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="EditTextHint">
+        <item name="android:textColorHint">@color/bmi1_color_hint_name</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar" >
+
+        <item name="android:textColorHint">@color/bmi1_color_hint_name</item>
+        <item name="android:textColorPrimary">@color/bmi1_color_number</item>
+        <item name="android:textSize">15sp</item>
+        <item name="colorControlNormal">@color/bmi1_color_number</item>
+    </style>
+
+</resources>

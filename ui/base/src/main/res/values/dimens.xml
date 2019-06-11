@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bmi1_dimen_calc_your_bmi">14sp</dimen>
+    <dimen name="bmi1_dimen_add_bmi_details">17sp</dimen>
+    <dimen name="bmi2_dimen_bmi_details">17sp</dimen>
+    <dimen name="bmi1_dimen_enter_personal_detail">22sp</dimen>
+    <dimen name="bmi1_dimen_hint_name">8.64sp</dimen>
+    <dimen name="bmi1_dimen_weight">15sp</dimen>
+    <dimen name="bmi1_dimen_height">15sp</dimen>
+    <dimen name="bmi1_dimen_gender">15sp</dimen>
+    <dimen name="bmi_toolbar_size">56dp</dimen>
+
+    <dimen name="bmi2_dimen_bmi">15sp</dimen>
+    <dimen name="bmi2_dimen_result1">80sp</dimen>
+    <dimen name="bmi2_dimen_result2">40sp</dimen>
+    <dimen name="bmi2_dimen_message">11sp</dimen>
+</resources>

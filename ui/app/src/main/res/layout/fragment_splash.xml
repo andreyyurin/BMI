@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@drawable/splash_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal|bottom"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <View
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bmi2_color_strip"/>
+
+        <TextView
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal|bottom"
+                android:textColor="@color/bmi2_color_strip"
+                android:textSize="30sp"
+                android:text="@string/splash_text_bmi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bmi2_color_strip"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+            android:layout_weight="1"
+            android:id="@+id/img_splash"
+            android:padding="50dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_bmi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>

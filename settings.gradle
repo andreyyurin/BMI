@@ -1,0 +1,6 @@
+include ':domain'
+include 'ui:result',
+        'ui:numberpicker',
+        'ui:calculate',
+        'ui:app',
+        'ui:base'

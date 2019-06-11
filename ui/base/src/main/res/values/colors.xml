@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color_app">#212121</color>
+
+    <color name="bmi1_color_calc_your_bmi">#d9d9d9</color>
+    <color name="bmi1_color_add_bmi_details">#ffffff</color>
+    <color name="bmi2_color_bmi_details">#ffffff</color>
+    <color name="bmi1_color_enter_personal_detail">#19769f</color>
+    <color name="bmi1_color_hint_name">#8195989A</color>
+    <color name="bmi1_color_weight">#3d3d3d</color>
+    <color name="bmi1_color_height">#3d3d3d</color>
+    <color name="bmi1_color_gender">#3d3d3d</color>
+    <color name="bmi1_color_number">#19769f</color>
+
+    <color name="gradient_start_color">#32cda5</color>
+    <color name="gradient_end_color">#19779f</color>
+
+    <color name="color_ic_arrow">#4DFFFFFF</color>
+
+    <color name="bmi2_color_strip">#4DFFFFFF</color>
+    <color name="bmi2_color_strip_result">#FFFFFF</color>
+    <color name="bmi2_color_bmi">#4DFFFFFF</color>
+    <color name="bmi2_color_result">#FFFFFF</color>
+    <color name="bmi2_color_message">#FFFFFF</color>
+
+</resources>
