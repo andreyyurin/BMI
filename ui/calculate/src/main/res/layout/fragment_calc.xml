@@ -1,133 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
-            android:background="@drawable/toolbar_bg"
+    <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
-            android:layout_height="@dimen/bmi_toolbar_size">
+            android:layout_height="@dimen/bmi_toolbar_size"
+            android:background="@drawable/toolbar_bg">
 
         <RelativeLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
             <ImageView
                     android:id="@+id/go_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingStart="5dp"
                     android:paddingTop="15dp"
                     android:paddingBottom="15dp"
-                    android:paddingStart="5dp"
-                    android:src="@drawable/ic_back_arrow"
-                    android:gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent">
-            </ImageView>
+                    android:src="@drawable/ic_back_arrow"></ImageView>
 
             <TextView
-                    android:textStyle="bold"
-                    android:textColor="@color/bmi1_color_add_bmi_details"
-                    android:textSize="@dimen/bmi1_dimen_add_bmi_details"
-                    android:text="@string/bmi1_text_add_bmi_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"/>
+                    android:text="@string/bmi1_text_add_bmi_details"
+                    android:textColor="@color/bmi1_color_add_bmi_details"
+                    android:textSize="@dimen/bmi1_dimen_add_bmi_details"
+                    android:textStyle="bold" />
         </RelativeLayout>
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
 
     <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
         <TextView
-                android:layout_marginTop="30dp"
-                android:layout_marginStart="30dp"
-                android:textColor="@color/bmi1_color_enter_personal_detail"
-                android:textSize="@dimen/bmi1_dimen_enter_personal_detail"
-                android:text="@string/bmi1_text_enter_personal_detail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/bmi1_text_enter_personal_detail"
+                android:textColor="@color/bmi1_color_enter_personal_detail"
+                android:textSize="@dimen/bmi1_dimen_enter_personal_detail" />
 
 
         <EditText
                 android:id="@+id/get_name"
-                android:layout_marginEnd="25dp"
-                android:hint="@string/bmi1_text_hint_name"
-                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="40dp"
+                android:layout_marginEnd="25dp"
                 android:background="@drawable/edittext_bg"
-                android:theme="@style/EditTextHint"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"/>
+                android:hint="@string/bmi1_text_hint_name"
+                android:singleLine="true"
+                android:theme="@style/EditTextHint" />
 
         <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:gravity="center"
-                android:textColor="@color/bmi1_color_calc_your_bmi"
-                android:textSize="@dimen/bmi1_dimen_calc_your_bmi"
                 android:text="@string/bmi1_text_calc_your_bmi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:textColor="@color/bmi1_color_calc_your_bmi"
+                android:textSize="@dimen/bmi1_dimen_calc_your_bmi" />
 
         <LinearLayout
-                android:layout_marginTop="25dp"
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
 
             <LinearLayout
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                 <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:textColor="@color/bmi1_color_weight"
-                        android:textSize="@dimen/bmi1_dimen_weight"
                         android:text="@string/bmi1_text_weight"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/bmi1_color_weight"
+                        android:textSize="@dimen/bmi1_dimen_weight" />
 
             </LinearLayout>
 
 
             <LinearLayout
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                 <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:textColor="@color/bmi1_color_height"
-                        android:textSize="@dimen/bmi1_dimen_height"
                         android:text="@string/bmi1_text_height"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:textColor="@color/bmi1_color_height"
+                        android:textSize="@dimen/bmi1_dimen_height" />
 
             </LinearLayout>
 
             <LinearLayout
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                 <TextView
-                        android:gravity="center"
-                        android:textColor="@color/bmi1_color_gender"
-                        android:textSize="@dimen/bmi1_dimen_gender"
-                        android:text="@string/bmi1_text_gender"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bmi1_text_gender"
+                        android:textColor="@color/bmi1_color_gender"
+                        android:textSize="@dimen/bmi1_dimen_gender" />
 
             </LinearLayout>
 
@@ -135,79 +136,79 @@
 
 
         <LinearLayout
-                android:layout_marginEnd="25dp"
-                android:layout_marginStart="25dp"
-                android:background="@drawable/picker_bg"
-                android:layout_marginTop="25dp"
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="115dp">
+                android:layout_height="115dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/picker_bg"
+                android:orientation="horizontal">
 
             <LinearLayout
-                    android:padding="10dp"
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
-                <upwork.test.numberpicker.NumberPicker
+                <sad.ru.numberpicker.NumberPicker
                         android:id="@+id/weight_picker"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
                         app:np_dividerColor="@color/bmi1_color_number"
-                        app:np_selectedTextColor="@color/bmi1_color_number"
                         app:np_dividerDistance="22dp"
                         app:np_dividerThickness="3dp"
-                        app:np_textSize="13sp"
+                        app:np_selectedTextColor="@color/bmi1_color_number"
                         app:np_selectedTextSize="15sp"
-                        android:layout_width="50dp"
-                        android:layout_height="match_parent"/>
+                        app:np_textSize="13sp" />
 
             </LinearLayout>
 
 
             <LinearLayout
-                    android:padding="10dp"
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
-                <upwork.test.numberpicker.NumberPicker
-                        android:gravity="center"
-                        android:layout_gravity="center"
+                <sad.ru.numberpicker.NumberPicker
                         android:id="@+id/height_picker"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         app:np_dividerColor="@color/bmi1_color_number"
-                        app:np_selectedTextColor="@color/bmi1_color_number"
                         app:np_dividerDistance="22dp"
                         app:np_dividerThickness="3dp"
-                        app:np_textSize="13sp"
+                        app:np_selectedTextColor="@color/bmi1_color_number"
                         app:np_selectedTextSize="15sp"
-                        android:layout_width="50dp"
-                        android:layout_height="match_parent"/>
+                        app:np_textSize="13sp" />
 
             </LinearLayout>
 
             <LinearLayout
-                    android:padding="10dp"
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
-                <upwork.test.numberpicker.NumberPicker
-                        android:gravity="center"
-                        android:layout_gravity="right"
+                <sad.ru.numberpicker.NumberPicker
                         android:id="@+id/gender_picker"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="center"
                         app:np_dividerColor="@color/bmi1_color_number"
-                        app:np_selectedTextColor="@color/bmi1_color_number"
                         app:np_dividerDistance="22dp"
                         app:np_dividerThickness="3dp"
-                        app:np_textSize="13sp"
+                        app:np_selectedTextColor="@color/bmi1_color_number"
                         app:np_selectedTextSize="15sp"
-                        android:layout_width="50dp"
-                        android:layout_height="match_parent"/>
+                        app:np_textSize="13sp" />
 
             </LinearLayout>
 
@@ -215,17 +216,30 @@
 
         <Button
                 android:id="@+id/btn_calc"
-                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
                 android:layout_marginStart="40dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="40dp"
+                android:background="@drawable/btn_calc_bg"
+                android:gravity="center"
                 android:text="@string/bmi1_text_btn"
                 android:textColor="@android:color/white"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/btn_calc_bg"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"/>
+                android:textStyle="bold" />
 
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center">
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/ad_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="ca-app-pub-8154277548860310/8136635732" />
+        </RelativeLayout>
     </LinearLayout>
 
 </LinearLayout>

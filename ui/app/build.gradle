@@ -17,5 +17,3 @@ dependencies{
     implementation project(path: ":ui:calculate")
     implementation project(path: ":ui:result")
 }
-
-apply plugin: 'com.google.gms.google-services'

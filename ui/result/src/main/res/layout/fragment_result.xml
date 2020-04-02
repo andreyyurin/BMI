@@ -5,7 +5,7 @@
         android:orientation="vertical"
         android:layout_height="match_parent">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
             android:background="@drawable/toolbar_bg"
             android:layout_width="match_parent"
             android:layout_height="@dimen/bmi_toolbar_size">
@@ -35,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
         </RelativeLayout>
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <RelativeLayout
             android:layout_weight="1"
@@ -80,7 +80,7 @@
                     android:gravity="center_horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                <android.support.v7.widget.AppCompatTextView
+                <androidx.appcompat.widget.AppCompatTextView
                         app:autoSizeMaxTextSize="80sp"
                         app:autoSizeMinTextSize="40sp"
                         app:autoSizeTextType="uniform"
@@ -178,7 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 ads:adSize="SMART_BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                ads:adUnitId="ca-app-pub-8154277548860310/8299932042">
         </com.google.android.gms.ads.AdView>
     </LinearLayout>
 
